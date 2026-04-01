@@ -1,4 +1,5 @@
 from pathlib import Path
+import os
 from openai import OpenAI
 from dotenv import load_dotenv
 from pydantic import BaseModel, Field
@@ -23,7 +24,7 @@ DB_NAME = str(Path(__file__).parent.parent / "preprocessed_db")
 collection_name = "docs"
 embedding_model = "text-embedding-3-large"
 KNOWLEDGE_BASE_PATH = Path(__file__).parent.parent / "knowledge-base"
-AVERAGE_CHUNK_SIZE = 100
+AVERAGE_CHUNK_SIZE = 500
 wait = wait_exponential(multiplier=1, min=10, max=240)
 
 
