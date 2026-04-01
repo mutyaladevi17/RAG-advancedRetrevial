@@ -110,14 +110,14 @@ The advanced retrieval system significantly enhances context discovery compared 
 
 | Metric | Score | 
 | :--- | :---: | 
-| **Mean Reciprocal Rank (MRR)** | **0.8713** | 
-| **Normalized DCG (nDCG)** | 0.8448 | 
-| **Keyword Coverage** | **94.4%** | 
-| **Answer Accuracy** | 4.33/5 |
-| **Answer Completeness** | 4.07/5 |
-| **Answer Relevance** | 4.73/5 | 
+| **Mean Reciprocal Rank (MRR)** | **0.8800* | 
+| **Normalized DCG (nDCG)** | 0.8581 | 
+| **Keyword Coverage** | **95.5%** | 
+| **Answer Accuracy** | 4.51/5 |
+| **Answer Completeness** | 4.31/5 |
+| **Answer Relevance** | 4.81/5 | 
 
-*Insight: The advanced query rewriting, combined with semantic summarization and LLM reranking, is incredibly effective at fixing vocabulary mismatches and surfacing hard-to-find keywords, achieving a massive **94.4% keyword coverage rating**.*
+*Insight: The advanced query rewriting, combined with semantic summarization and LLM reranking, is incredibly effective at fixing vocabulary mismatches and surfacing hard-to-find keywords, achieving a massive **95.5% keyword coverage rating**.*
 
 ---
 
